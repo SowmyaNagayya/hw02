@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    display: flex;
+    position:fixed;
+    padding:20px;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(148, 5, 5);
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+      
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+ul li {
+    display: inline-block;    
+    list-style-type: none;
+    color: white;    
+}
+
+li a{
+    color: white;
+    padding: 20px;   
+}
+
+nav a:hover {
+    color: black;
+  }
+
+
+.about {
+    padding-top: 75px;
+}
+
+.aboutsection {
+    width: 30%;
+    float: left;
+}
+.aboutsection1 {
+    width: 70%;
+    float: left;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+main section h2 {
+    flex:1;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: auto;
+   }
+
+main img {
+    margin:50px;
+    width: 70%;
+    margin:10px;
+    padding-left: 20px;
+}
+
+.work {
+    padding-bottom:30px;
+}
+
+.worksection {
+    width: 75%;
+    float: left;
+}
+.worksection1 {
+    width: 25%;
+    float: left;
+}
+
+.work img{
+        margin:50px;
+        width: 95%;
+        margin:10px;
+        padding-left: 20px;
+        
+}
+
+main section p {
+    display:block;
+    font-size: large;
+    padding-left: 20px;
+
+}
+  
+
+section .work img {
+    flex: 3;
+    width:100%;
+    margin-top: 30px;
+}
+
+main section p {
+    padding-bottom: 75px;
+}
+
+
+#contact {
+    padding-bottom:15px ;
+    padding-left: 20px;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto 100px auto;
+   }
+
+form fieldset{
+    border:none;
+    margin-bottom:12px;  
+            }
+
+form label {
+    display: block;
+    padding:2px;
+          }
+
+footer {
+    display: flex;
+    position:fixed;
+    padding:20px;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(148, 5, 5);
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 768px) {
+    header,
+  nav {
+    flex-direction: column;
+    justify-content: ;
+  }
+}
+
+  
+  
+  
