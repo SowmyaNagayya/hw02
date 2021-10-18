@@ -12,39 +12,38 @@
 
     
 <body>
-     <header class="menu-container">
-        <h1>Sowmya's Portfolio</h1>
-         
-           <nav>
-               <ul>
-                   <li><a href="#about">About</a></li>
-                   <li><a href="#work">Work</a></li>
-                   <li><a href="#contact">Contact</a></li>
-               </ul>
-           </nav>
-         
+  <!-- Header with Navigation bar -->
+   <header class="menu-container">
+      <h1>Sowmya's Portfolio</h1>
+         <nav>
+             <ul>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#work">Work</a></li>
+                 <li><a href="#contact">Contact</a></li>
+             </ul>
+         </nav>      
+   </header>
 
-        
-     </header>
-     <div class="mobile-container">
-
-      <!-- Top Navigation Menu -->
-      <div class="topnav">
-        <a href="#home" class="active">      <h1>Sowmya's Portfolio</h1></a>
-        <div id="myLinks">
-          <ul>
-            <li><a class="link" href="#about">About</a></li>
-            <li><a class="link" href="#work">Work</a></li>
-            <li><a class="link" href="#contact">Contact</a></li>
-        </ul>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+   <div class="mobile-container">
+    <!-- Top Navigation Menu For Mobile Container-->
+    <div class="topnav">
+      <a href="#home" class="active">      
+        <h1>Sowmya's Portfolio</h1></a>
+      <div id="myLinks">
+        <ul>
+          <li><a class="link" href="#about">About</a></li>
+          <li><a class="link" href="#work">Work</a></li>
+          <li><a class="link" href="#contact">Contact</a></li>
+      </ul>
       </div>
-      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </div>
+    
     <main>
-
+      <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
           <div class="aboutme">
@@ -56,21 +55,29 @@
           </div>
     </section>
     
+    <!-- Work Section -->
     <section id="work">
-        <h2>Work</h2>
-         <section class="container">
-           <!-- <article class="card">-->
-              <div class="card1">
+      <h2>Work</h2>
+       <section class="container">
+          <!-- For Bakery Project -->
+         <div class="card1">
+             <h3>Project1</h3>
                 <img  src="./assets/image/Bakery.gif" alt="BakeryPicture"/>
+                  <p>Bakery Project</p>
               </div>
-              
 
-              <div class="card2">
+          <!-- For Horiseon Project -->
+          <div class="card2">
+            <h3>Project2</h3>
                 <img  src="./assets/image/horiseonmainpage.png" alt="HorPicture"/>
+                  <p>Horiseon Project</p>
               </div>
 
+          <!-- For MyWork Project -->
               <div class="card3">
+                <h3>Project3</h3>
                 <img  src="./assets/image/mywork.jpg" alt="WorkPicture"/>
+                  <p>MyWork Project</p>
               </div>
               
             </article>

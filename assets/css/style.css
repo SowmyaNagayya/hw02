@@ -101,6 +101,11 @@ section h2 {
   padding: 5px;
 }
 
+.card1 p {
+    font-weight: bold;
+    font-size: larger;
+ }
+
 /* Styling For Work Schedular */
 .card2  {
   display: flex;
@@ -109,12 +114,22 @@ section h2 {
   padding: 5px;
 }
 
+.card2 p {
+    font-weight: bold;
+    font-size: larger;
+}
+
 /* Styling For Weather Forecast */
 .card3 {
   display: flex;
   flex-wrap: wrap;
   width: 30%;
   padding: 5px;
+}
+
+.card3 p {
+    font-weight: bold;
+       font-size: larger;
 }
 
 .card1 img,.card2 img,.card3 img {
