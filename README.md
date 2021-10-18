@@ -17,8 +17,8 @@ UI is designed to be responsive.
 
 ## Screenshot of homepage
 
-![Here is a screen shot of the final page/homepage.](./assets/image/aboutmepage.png)
-![Here is a screen shot of the final page/homepage.](./assets/image/myworkpage.png)
+![Here is a screen shot of the final page/homepage.](./assets/image/aboutimage.png)
+![Here is a screen shot of the final page/homepage.](./assets/image/mywork.png)
 ![Here is a screen shot of the final page/homepage.](./assets/image/footerpage.png)
 
 
